@@ -19,9 +19,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installation Instructions
 * Open Terminal {Ctrl+Alt+T}
 
-*git clone https://github.com/Owiti-Charles/Git-Search.git
+* git clone https://github.com/Owiti-Charles/Git-Search.git
 
-*cd Git-Search
+* cd Git-Search
 
 * Open the folder in your text editor (code or atom etc, use your preferred editor)
 
