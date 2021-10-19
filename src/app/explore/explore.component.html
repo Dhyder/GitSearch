@@ -131,7 +131,7 @@
                 <div id="pane" class="card row">
                   <div id="pane2" class="card-body">
 
-                    <p>Created: {{emporium.created_at}}</p>
+                    <p>Created: {{emporium.created_at | datePipe}}</p>
                     <p>Language Used: {{emporium.language}}</p>
                     <p>{{emporium.description}}</p>
                     <span><a href="{{emporium.html_url}}" target="_blank" class="btn btn-sm btn-danger">View
