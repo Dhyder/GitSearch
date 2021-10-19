@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ExplorerService } from '../services/explorer.service';
 
 @Component({
   selector: 'app-explore',
