@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GlobalhttpinterceptorService } from './globalhttpinterceptor.service';
+import {GlobalHttpInterceptorService} from './globalhttpinterceptor.service';
 
 describe('GlobalhttpinterceptorService', () => {
-  let service: GlobalhttpinterceptorService;
+  let service: GlobalHttpInterceptorService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(GlobalhttpinterceptorService);
+    service = TestBed.inject(GlobalHttpInterceptorService);
   });
 
   it('should be created', () => {

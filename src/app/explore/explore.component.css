@@ -1,173 +1,167 @@
 .group {
-    top: 30px;
-    left: 35px;
-    width: 224.42px;
-    height: 78.16px;
-    position: absolute;
-  }
-  
-  
-  .header {
-    position: absolute;
-    top: 25px;
-    left: 102px;
-    width: 178px;
-    height: 70px;
-    overflow: hidden;
-    font-family: Poor Story;
-    font-size: 36px;
-    text-align: left;
-    text-shadow: 0px 4px 4px rgba(22, 22, 22, 0.411);
-    color: #000000;
-  }
-  
-  .header-shadow {
-    position: absolute;
-    top: 0px;
-    left: 102px;
-    width: 178px;
-    height: 70px;
-    overflow: hidden;
-    font-family: Poor Story;
-    font-size: 36px;
-    text-align: left;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.521);
-    color: #ffffff00;
-  }
-  
-  
+  top: 30px;
+  left: 35px;
+  width: 224.42px;
+  height: 78.16px;
+  position: absolute;
+}
+
+
+.header {
+  position: absolute;
+  top: 25px;
+  left: 102px;
+  width: 178px;
+  height: 70px;
+  overflow: hidden;
+  font-family: Poor Story;
+  font-size: 36px;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(22, 22, 22, 0.411);
+  color: #000000;
+}
+
+.header-shadow {
+  position: absolute;
+  top: 0px;
+  left: 102px;
+  width: 178px;
+  height: 70px;
+  overflow: hidden;
+  font-family: Poor Story;
+  font-size: 36px;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.521);
+  color: #ffffff00;
+}
+
 
 .form-control {
-    color: #26afaf;
-    background-color: transparent;
-    font-family: Poor story;
-    font-size: 20px;
-    border-radius: 23px;
-    font-weight: bolder;
-    border: 0px #0000 solid;
-    min-width: auto;
-    max-width: 15cm;
-    margin-top: 100px;
-    border: 0.5px solid rgba(252, 252, 252, 0.735);
-    align-content: center;
-    justify-self: center;
-    display: flexbox;
-  
-  
-  }
-  
-  .container-card {
-    max-width: fit-content;
-  }
-  
-  #title {
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.658);
-    font-family: Rock salt;
-    color: rgba(20, 120, 187, 0.982);
-    justify-content: space-around;
-    font-size: xx-large;
-    margin-top: 120px;
-  }
-  
-  #octocat {
-    margin-left: 200px;
-  }
+  color: #26afaf;
+  background-color: transparent;
+  font-family: Poor story;
+  font-size: 20px;
+  border-radius: 23px;
+  font-weight: bolder;
+  border: 0px #0000 solid;
+  min-width: auto;
+  max-width: 15cm;
+  margin-top: 100px;
+  border: 0.5px solid rgba(252, 252, 252, 0.735);
+  align-content: center;
+  justify-self: center;
+  display: flexbox;
 
-  
+
+}
+
+.container-card {
+  max-width: fit-content;
+}
+
+#title {
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.658);
+  font-family: Rock salt;
+  color: rgba(20, 120, 187, 0.982);
+  justify-content: space-around;
+  font-size: xx-large;
+  margin-top: 120px;
+}
+
+#octocat {
+  margin-left: 200px;
+}
+
 #searchgif {
-    max-width: 2cm;
-    min-width: auto;
-    float: left;
-  }
-  
-  #octocat {
-    max-width: 5cm;
-    margin-left: auto;
-    margin-top: 5px;
-  }
-  
-  #butterflies {
-    max-width: 5cm;
-    top: 0px;
-    left: 120px;
-    position: absolute;
-  }
-  
-  #pane{
-    color: white;
-    border-radius: 20px;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../../assets/squid.gif);
-  }
-  
+  max-width: 2cm;
+  min-width: auto;
+  float: left;
+}
 
-  
+#octocat {
+  max-width: 5cm;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+#butterflies {
+  max-width: 5cm;
+  top: 0px;
+  left: 120px;
+  position: absolute;
+}
+
+#pane{
+  color: white;
+  border-radius: 20px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/squid.gif);
+}
+
 #T{
-    background-image: url(../../assets/squid.gif);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 10px;
-    max-width: auto;
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-  
-  #T2{
-    background-image: url(../../assets/power.gif);
-    background-size: 5.2%;
-    margin: 120px;
-    background-position: center;
-    border-radius: 10px;
-    max-width: auto;
-    min-width: auto;
-    text-align: center;
-    color: white;
-  }
-  
-  #P{
-    font-family: Rock Salt;
-    color: #e6bc47;
-    background-size: cover;
-    border-radius: 20px;
-    width: auto;
-    image-resolution: auto;
-  }
-  
-  .sticky{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  
+  background-image: url(../../assets/squid.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  max-width: auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 
-  
+#T2{
+  background-image: url(../../assets/power.gif);
+  background-size: 5.2%;
+  margin: 120px;
+  background-position: center;
+  border-radius: 10px;
+  max-width: auto;
+  min-width: auto;
+  text-align: center;
+  color: white;
+}
+
+#P{
+  font-family: Rock Salt;
+  color: #e6bc47;
+  background-size: cover;
+  border-radius: 20px;
+  width: auto;
+  image-resolution: auto;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 #back{
-    background-color: transparent;
-  }
-  
-  #H{
-    background-image: url(../../assets/squid.gif);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 10px;
-    max-width: auto;
-    min-width: auto;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .p{
-    color: white;
-  }
-  
-  #bar{
-    font-size: 20px;
-    font-family: poor story;
-    font-weight: bold;
-  }
+  background-color: transparent;
+}
+
+#H{
+  background-image: url(../../assets/squid.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  max-width: auto;
+  min-width: auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 20px;
+}
+
+.p{
+  color: white;
+}
+
+#bar{
+  font-size: 20px;
+  font-family: poor story;
+  font-weight: bold;
+}

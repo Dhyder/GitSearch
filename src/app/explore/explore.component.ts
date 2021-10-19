@@ -6,7 +6,6 @@ import { ExplorerService } from '../services/explorer.service';
   templateUrl: './explore.component.html',
   styleUrls: ['./explore.component.css']
 })
-
 export class ExploreComponent implements OnInit {
 
   account: any;
