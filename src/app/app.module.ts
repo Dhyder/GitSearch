@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExploreComponent } from './explore/explore.component';
 import { DatePipe } from './date.pipe';
+import { ThemerDirective } from './themer.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ExploreComponent,
-    DatePipe
+    DatePipe,
+    ThemerDirective
   ],
   imports: [
     BrowserModule,
