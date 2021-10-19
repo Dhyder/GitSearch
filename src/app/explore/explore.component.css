@@ -73,4 +73,33 @@
   #octocat {
     margin-left: 200px;
   }
+
+  
+#searchgif {
+    max-width: 2cm;
+    min-width: auto;
+    float: left;
+  }
+  
+  #octocat {
+    max-width: 5cm;
+    margin-left: auto;
+    margin-top: 5px;
+  }
+  
+  #butterflies {
+    max-width: 5cm;
+    top: 0px;
+    left: 120px;
+    position: absolute;
+  }
+  
+  #pane{
+    color: white;
+    border-radius: 20px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/squid.gif);
+  }
   
