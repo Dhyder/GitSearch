@@ -1,0 +1,37 @@
+.group {
+    top: 30px;
+    left: 35px;
+    width: 224.42px;
+    height: 78.16px;
+    position: absolute;
+  }
+  
+  
+  .header {
+    position: absolute;
+    top: 25px;
+    left: 102px;
+    width: 178px;
+    height: 70px;
+    overflow: hidden;
+    font-family: Poor Story;
+    font-size: 36px;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(22, 22, 22, 0.411);
+    color: #000000;
+  }
+  
+  .header-shadow {
+    position: absolute;
+    top: 0px;
+    left: 102px;
+    width: 178px;
+    height: 70px;
+    overflow: hidden;
+    font-family: Poor Story;
+    font-size: 36px;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.521);
+    color: #ffffff00;
+  }
+  
