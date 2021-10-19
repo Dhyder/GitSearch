@@ -109,3 +109,41 @@
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+  
+        <div class="panel panel-dark">
+          <div id="T2" class="sticky">
+            <h2 id="P" appThemer>Repositories</h2>
+          </div>
+          <div class="panel-body" *ngIf="account.public_repos">
+  
+  
+            <hr>
+  
+  
+            <div id="back" class="card info" *ngIf="account.public_repos">
+              <div class="card-body " *ngFor="let emporium of emporiums">
+                <h3 id="T" appThemer>{{emporium.name}}</h3>
+                <div id="pane" class="card row">
+                  <div id="pane2" class="card-body" >
+                    
+                    <p>Created: {{emporium.created_at}}</p>
+                    <p>Language Used: {{emporium.language}}</p>
+                    <p>{{emporium.description}}</p>
+                    <span><a href="{{emporium.html_url}}" target="_blank" class="btn btn-sm btn-danger">View
+                        in GitHub</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
