@@ -1,0 +1,111 @@
+<div class="container">
+    <div class="col-xl-12">
+      <div class="row">
+        <h2 id="title">
+          <img id="octocat"
+            src="https://user-images.githubusercontent.com/86789832/137597987-4cb12c27-1057-4961-a142-600daa2d927c.gif"
+            alt="this slowpoke moves" /><br><br>
+          <span style="color:#4b4a4a">
+            <</span> <span style="color:#ec2323">G
+          </span>
+          <span style="color:#ff6f00">I</span>
+          <span style="color:#ddff00">T</span>
+          <span style="color:#c3dac4">-</span>
+          <span style="color:#00ffbf">S</span>
+          <span style="color:#0084ff">E</span>
+          <span style="color:#9900ff">A</span>
+          <span style="color:#ff00ff">R</span>
+          <span style="color:#ff006a">C</span>
+          <span style="color:#aee839">H</span>
+          <span style="color:#4b4a4a">></span>
+        </h2>
+  
+  
+  
+        <form class="form-search">
+          <div class="form-group">
+            <img id="searchgif"
+              src="https://user-images.githubusercontent.com/86789832/137598939-dd4b839a-1cfa-4dbc-ab6f-b7e6a84d557c.gif"
+              alt="this slowpoke moves" width="250" />
+            <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="userId" name="userId"
+              (keyup)="exploreAccount()">
+          </div>
+  
+        </form>
+        <div class="container-card">
+          <img id="butterflies"
+            src="https://user-images.githubusercontent.com/86789832/137598913-bbcfe2f8-c160-4810-949f-f4cd2491238f.gif"
+            alt="this slowpoke moves" />
+          <div class="group">
+            <img src="assets/vector.png" id="vector" />
+            <img src="assets/vector_ek1.png" id="vector_ek1" />
+            <img src="assets/vector_ek2.png" id="vector_ek2" />
+            <h1 class="header">
+              Git-Search
+            </h1>
+            <h1 class="header-shadow">
+              Git-Search
+            </h1>
+          </div>
+        </div>
+  
+        <div *ngIf="account">
+          <div class="panel panel-default">
+            <div class="container-fluid">
+  
+            </div>
+  
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <br>
+                  <img [src]='account.avatar_url' class="rounded-circle img-fluid img-thumbnail" width="200" height="200"
+                    alt="account img">
+                </div>
+                <br>
+                <br>
+                <div class="col-sm-3">
+                  <div class="list-group">
+                    <div class="" *ngIf="account.login">
+                     <h4 id="H" appThemer><strong>{{account.login | uppercase}}</strong></h4></div>
+  
+                     <br>
+  
+                </div>
+  
+                  <div>
+                    <p>
+                      <button *ngIf="account.email">Email:<span class="badge br-success text-light"><a
+                        href="{{account.email}}">{{account.email}}</a></span>
+                    </button>
+                      <button id="bar" *ngIf="account.bio" class="btn btn">Bio:<span
+                          class="badge bg-success text-light">{{account.bio}}</span></button><br>
+                      <button id="bar" class="btn btn">Followers: <span
+                          class="badge bg-success text-light">{{account.followers}}</span></button>
+                      <button id="bar" class="btn btn">Following: <span
+                          class="badge bg-success text-light">{{account.following}}</span></button>
+                      <button id="bar" class="btn btn">Public Gists: <span
+                          class="badge bg-success text-light">{{account.public_gists}}</span></button><br>
+                      <button id="bar" class="btn btn">Public Repos: <span
+                          class="badge bg-success text-light">{{account.public_repos}}</span></button>
+                      <button id="bar" class="btn btn">Profile created On: <span
+                          class="badge bg-success text-light">{{account.created_at | datePipe}}</span></button>
+                    </p>
+  
+                    <hr>
+  
+                    <p> <a href="{{account.html_url}}" target="_blank" class="btn btn-dark btn-sm">View Profile</a></p>
+  
+                    
+  
+                  </div>
+  
+  
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
