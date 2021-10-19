@@ -103,3 +103,43 @@
     background-image: url(../../assets/squid.gif);
   }
   
+
+  
+#T{
+    background-image: url(../../assets/squid.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    max-width: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  #T2{
+    background-image: url(../../assets/power.gif);
+    background-size: 5.2%;
+    margin: 120px;
+    background-position: center;
+    border-radius: 10px;
+    max-width: auto;
+    min-width: auto;
+    text-align: center;
+    color: white;
+  }
+  
+  #P{
+    font-family: Rock Salt;
+    color: #e6bc47;
+    background-size: cover;
+    border-radius: 20px;
+    width: auto;
+    image-resolution: auto;
+  }
+  
+  .sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
