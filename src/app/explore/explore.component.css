@@ -92,7 +92,7 @@
   position: absolute;
 }
 
-#pane{
+#pane {
   color: white;
   border-radius: 20px;
   background-size: 100%;
@@ -101,7 +101,7 @@
   background-image: url(../../assets/squid.gif);
 }
 
-#T{
+#T {
   background-image: url(../../assets/squid.gif);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@
   text-align: center;
 }
 
-#T2{
+#T2 {
   background-image: url(../../assets/power.gif);
   background-size: 5.2%;
   margin: 120px;
@@ -124,7 +124,7 @@
   color: white;
 }
 
-#P{
+#P {
   font-family: Rock Salt;
   color: #e6bc47;
   background-size: cover;
@@ -133,17 +133,17 @@
   image-resolution: auto;
 }
 
-.sticky{
+.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-#back{
+#back {
   background-color: transparent;
 }
 
-#H{
+#H {
   background-image: url(../../assets/squid.gif);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -156,11 +156,11 @@
   margin: 20px;
 }
 
-.p{
+.p {
   color: white;
 }
 
-#bar{
+#bar {
   font-size: 20px;
   font-family: poor story;
   font-weight: bold;
