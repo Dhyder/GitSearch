@@ -143,3 +143,31 @@
     top: 0;
   }
   
+
+  
+#back{
+    background-color: transparent;
+  }
+  
+  #H{
+    background-image: url(../../assets/squid.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    max-width: auto;
+    min-width: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .p{
+    color: white;
+  }
+  
+  #bar{
+    font-size: 20px;
+    font-family: poor story;
+    font-weight: bold;
+  }
